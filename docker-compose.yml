@@ -1,0 +1,8 @@
+version: '2'
+services: 
+  novnc:
+   image: jessedusty/novnc
+   build: .
+   ports: 
+    - 6080:6080
+

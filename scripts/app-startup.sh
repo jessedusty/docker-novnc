@@ -1,0 +1,2 @@
+echo "INSERT APP STARTUP HERE"
+sleep 2
