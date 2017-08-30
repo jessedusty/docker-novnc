@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 ENV DEBIAN_FRONTEND noninteractive
 
 CMD /startup.sh
-EXPOSE 6080
+EXPOSE 80
 
 # Base packages for noVNC
 RUN apt-get update -y && \

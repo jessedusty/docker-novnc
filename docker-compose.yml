@@ -4,5 +4,5 @@ services:
    image: jessedusty/novnc
    build: .
    ports: 
-    - 6080:6080
+    - 6080:80
 
